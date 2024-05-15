@@ -1,5 +1,5 @@
 import pytest
-from src.mpc_module import generate_ecdsa_key, split_secret, reconstruct_secret
+from memo.mpc_module import generate_ecdsa_key, split_secret, reconstruct_secret
 
 def test_generate_ecdsa_key():
     secret_key, public_key = generate_ecdsa_key()
